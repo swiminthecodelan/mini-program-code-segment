@@ -1,0 +1,50 @@
+.demo-text-1 {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 36rpx;
+  background-color: #1aad19;
+}
+
+.demo-text-1::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: 'A';
+}
+
+.demo-text-2 {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 36rpx;
+  background-color: #2782d7;
+}
+
+.demo-text-2::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: 'B';
+}
+
+.demo-text-3 {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  color: #353535;
+  font-size: 36rpx;
+  background-color: #f1f1f1;
+}
+
+.demo-text-3::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: 'C';
+}
